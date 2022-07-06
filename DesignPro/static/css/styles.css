@@ -1,0 +1,274 @@
+*{
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    width: 100%;
+    height: 326px;
+    margin-top: -8px;
+    /*background-color:red;*/
+}
+nav{
+    background-color: black;
+    color: white;
+    height: 65px;
+}
+main{
+    margin-top: 9px;
+    width: 100%;
+    height: 1843px;
+
+}
+footer{
+    width: 100%;
+    height: 40px;
+    background-color:#310db3;
+}
+.a1{
+    margin-left: 351px;
+    color: white;
+    margin-top: 27px;
+}
+.a2,.a3{
+    margin-left: 30px;
+    color: white;
+}
+.a4,.a5{
+    margin-left: 24px;
+    color: white;
+}
+#tel{
+    background: url("../images/phone.png") no-repeat;
+    background-size:38px 20px;
+    padding-left: 40px;
+    width: 220px;
+    float: right;
+    font-size: 20pt;
+    margin-top: 15px;
+    font-family: "Century Gothic";
+    margin-right: 20px;
+}
+#fon{
+    height:600px;
+    background: url("../images/rakurs1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+#zfon{
+    height: 475px;
+    width: 100%;
+    float: left;
+    margin-top: 218px;
+}
+#pfon{
+    height: 0px;
+    margin-left: -314px;
+    opacity: 30%;
+}
+#ftext1{
+    color: white;
+    font-size: 55pt;
+    margin-top: -452px;
+    margin-left: 361px;
+    font-weight: bolder;
+    font-family: fantasy;
+    text-shadow: 2px 2px black;
+}
+#zfon_2{
+    height: 475px;
+    width: 100%;
+    float: left;
+    margin-top: 100px;
+}
+#pfon2{
+    height: 0px;
+    opacity: 30%;
+}
+#ftext2{
+    color: white;
+    font-size: 55pt;
+    margin-top: -363px;
+    margin-left: 602px;
+    font-weight: bolder;
+    font-family: fantasy;
+    text-shadow: 2px 2px black;
+}
+#zfon_3{
+    height: 475px;
+    width: 100%;
+    float: left;
+    margin-top: 69px;
+}
+#pfon3{
+    height: 0px;
+    margin-left: -314px;
+    opacity: 30%;
+}
+#ftext3{
+    color: white;
+    font-size: 55pt;
+    margin-top: -452px;
+    margin-left: 134px;
+    font-weight: bolder;
+    font-family: fantasy;
+    text-shadow: 2px 2px black;
+}
+a{
+    color: #2c32a8;
+    font-family: "Century Gothic";
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#logo {
+    width: 150px;
+    height: 39px;
+    margin-top: -652px;
+    margin-left: 7px;
+    color: #ffffff;
+    font-size: 24px;
+}
+#forma{
+    margin-left: 966px;
+    margin-top: 61px;
+}
+form {
+    float: left;
+    width: 229px;
+    height: 245px;
+    background-color: rgba(255, 255, 255, 0.71);
+    border-radius: 10px;
+    font-family: "Franklin Gothic Book";
+    margin-left: 250px;
+    margin-top: -20px;
+}
+form>p{
+    font-size: 16px;
+    padding: 2px;
+    text-align: center;
+}
+.inp{
+    width: 150px;
+    height: 35px;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+#name{
+    background: url("../images/user.png") no-repeat;
+    background-position: 5px 5px;
+    padding-left: 30px;
+    font-size: 12px;
+}
+#input_tel{
+    background: url("../images/icon_phone.png") no-repeat;
+    background-position: 5px 5px;
+    padding-left: 30px;
+    font-size: 12px;
+}
+
+form>button{
+    width: 100%;
+    height: 44px;
+    font-size: 26px;
+    background: linear-gradient(to top, #ff9c00, #ffcd61);
+    border: 0;
+    cursor: pointer;
+}
+.content{
+    font-family: "Arial";
+    font-size: 15px;
+}
+#counter{
+    width: 380px;
+    height: 135px;
+    margin-left: 130px;
+    float: left;
+}
+#counter>p{
+    margin-left: 30px;
+}
+p{
+    margin: 0 0 20px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+p.zagl{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 290px;
+    text-align: center;
+    font-size: 47px;
+    font-family: Candara;
+    color: #535353;
+}
+.Dis{
+    width: 50%;
+    margin-left: 380px;
+    margin-top: -30px;
+    text-align: center;
+    color: #535353;
+    font-family: Candara;
+}
+#map{
+    width: 100%;
+    height: 335px;
+    background-color: #ffcd61;
+    float: left;
+}
+footer{
+    width: 100%;
+    height: 45px;
+    background-color:#310db3;
+    float: left;
+}
+#nav2>a{
+    color: #black;
+}
+.socsety{
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+#name_2{
+    background: url("../images/user.png") no-repeat;
+    background-position: 5px 5px;
+    padding-left: 30px;
+    font-size: 12px;
+    background-color: #ffffff;
+    border: 0;
+}
+#input_tel_2{
+    background: url("../images/icon_phone.png") no-repeat;
+    background-position: 5px 5px;
+    padding-left: 30px;
+    font-size: 12px;
+    background-color: #ffffff;
+    border: 0;
+}
+body{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+p.zag{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 55px;
+    border: 20px solid black;
+    width: 100%;
+    background: black;
+    margin-top: 96px;
+    font-family: Candara;
+    color: white;
+}

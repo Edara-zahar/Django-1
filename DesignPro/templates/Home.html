@@ -1,0 +1,76 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css'%}" type="text/css">
+</head>
+<body>
+
+<header>
+    <nav id="nav1">
+        <a class="a1" href="#">ГЛАВНАЯ</a>
+        <a class="a2" href="#">ПОРТФОЛИО</a>
+        <a class="a3" href="#">УСЛУГИ И ЦЕНЫ</a>
+        <a class="a4" href="{% url 'signup' %}">РЕГИСТРАЦИЯ</a>
+        <a class="a5" href="{% url 'login' %}">АВТОРИЗАЦИЯ</a>
+        <div id="tel">8(800)000-00-00</div>
+    </nav>
+    <div id="fon"></div>
+        <div id="header">
+            <div id="logo">DESIGN PRO</div>
+        </div>
+        <div id="forma">
+            <form action="#">
+                <p>Сделайте заказ со скидкой прямо сейчас</p>
+                <input class="inp" id="name" type="text" placeholder="Введите ваше имя…">
+                <input class="inp" id="input_tel" placeholder="Введите ваш телефон…">
+                <button id = button>СДЕЛАТЬ ЗАКАЗ</button>
+        </div>
+            </form>
+        </div>
+    </div>
+</header>
+<main>
+    <div id="zfon">
+        <div id="pfon"><img src="{% static 'images/photo3.png' %}"></div>
+        <img src="{% static 'images/fon_1.1.jpg' %}">
+        <div id="ftext1"><p>ЧАСТНЫЕ ПРОЕКТЫ</p></div>
+    </div>
+    <div id="zfon_2">
+        <div id="pfon2"><img src="{% static 'images/2.png' %}"></div>
+        <img src="{% static 'images/fon_2.2.jpg' %}">
+         <div id="ftext2"><p>КОММЕРЧЕСКИЕ ПРОЕКТЫ</p></div>
+    </div>
+    <div id="zfon_3">
+        <div id="pfon3"><img src="{% static 'images/photo3.png' %}"></div>
+        <img src="{% static 'images/fon_3.3.jpg' %}">
+         <div id="ftext3"><p>АРХИТЕКТУРЫЕ ПРОЕКТЫ</p></div>
+    </div>
+</main>
+  <p class="zag">МЕСТОПОЛОЖЕНИЕ</p>
+        <p class="Dis">За время деятельности мы обрели достаточный опыт для решения задач разной сложности, поэтому Вы можете заказать услуги в Калуге или удаленно из любой точки мира через форму обратной связи в разделе Контакты. Благодаря положительным отзывам, количество постоянных клиентов стабильно увеличивается.
+Ниже представлена карта главного офиса.</p>
+    </div>
+
+  <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1945.7043737200138!2d36.348461015763945!3d54.55384923071837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4134b8e69679d059%3A0x7cf079c7b1739e27!2z0YPQuy4g0JPRgNCw0LHRhtC10LLRgdC60L7QtSDRiC4sIDEyNiwg0JrQsNC70YPQs9CwLCDQmtCw0LvRg9C20YHQutCw0Y8g0L7QsdC7LiwgMjQ4OTI2!5e0!3m2!1sru!2sru!4v1633644763157!5m2!1sru!2sru" height="335" style="border:0;width: 100%;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+<footer>
+    <nav id="nav2">
+        <a class="a1" href="#">ГЛАВНАЯ</a>
+        <a class="a2" href="#">ПОРТФОЛИО</a>
+        <a class="a3" href="#">УСЛУГИ И ЦЕНЫ</a>
+        <a class="a4" href="#">О КОМПАНИИ</a>
+        <a class="a5" href="#">КОНТАКТЫ</a>
+        <div class="socsety soc1"><img src="{% static 'images/B.png' %}" alt=""></div>
+        <div class="socsety"><img src="{% static 'images/mail.png' %}" alt=""></div>
+        <div class="socsety"><img src="{% static 'imagesya.png' %}" alt=""></div>
+        <div class="socsety"><img src="{% static 'images/pen.png' %}" alt=""></div>
+        <div class="socsety"><img src="{% static 'images/ok.png' %}" alt=""></div>
+    </nav>
+</footer>
+</body>
+</html>
